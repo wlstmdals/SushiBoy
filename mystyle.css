@@ -1,0 +1,120 @@
+.header {
+  height: 155px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px 0px 0px 0px;
+}
+
+#title {
+  font: italic bold 40px consolas, sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+#menubar {
+  background: black;
+}
+
+#munubar ul {
+  margin: 0;
+  padding-left: 0;
+  float: right;
+  width: 100%;
+  bottom: 0;
+}
+
+#menubar ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 120px 0px 120px;
+  margin: 0px 0px 0px 0px;
+}
+
+#menubar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#menubar ul li a:hover {
+  color: plum;
+}
+
+#section {
+  overflow: hidden;
+  margin-top: 155px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+}
+
+#section2 {
+  padding-top: 170px;
+  width: 100%;
+  height: 725px;
+  background-color: white;
+  color: black;
+  padding-bottom: 25px;
+}
+
+#section3 {
+  padding-top: 170px;
+  width: 100%;
+  height: 725px;
+  background-color: white;
+  color: black;
+  padding-bottom: 25px;
+}
+
+section > div {
+  color: black;
+}
+
+#list > a {
+  font-style: arial;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  height: 25px;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
+
+.iframe {
+  display: block;
+  border: none;
+  width: 100%;
+  /*height: 758px;*/
+  height: 800px;
+
+  /*height: 100%;*/
+  overflow: scroll;
+}
+
+#BGmusic {
+  position: fixed;
+  top: 0px;
+  left: 5px;
+  color: black;
+}
